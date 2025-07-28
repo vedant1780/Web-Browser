@@ -25,20 +25,13 @@ A lightweight client-server application built in Java to demonstrate socket-base
 3. Upon successful connection, both sides exchange messages and terminate gracefully.
 
 ## 📂 Project Structure
-SocketApp/
-├── Single Threaded/
-│   ├── Client.java           # Handles socket connection and message exchange from client side
-│   ├── Server.java           # Accepts client connections and sends server responses
-│   └── utils/                # (Optional) Utility classes for logging or stream handling
-│── Multi Threaded/
-│   ├── Client.java           # Handles socket connection and message exchange from client side
-│   ├── Server.java           # Accepts client connections and sends server responses
-└── Logger.java
-├── docs/                     # (Optional) Documentation or design diagrams
-│   └── architecture.png
-├── README.md                 # Project overview and instructions
-├── LICENSE                   # Open-source license (e.g., MIT)
-└── .gitignore                # Excludes compiled files or IDE settings
+  Web Browser/
+      Single Threaded/
+          Client.java
+          Server.java
+      Multi Threaded/
+          Client.java
+          Server.java
 
 ## 🚦 Getting Started
 
